@@ -1,0 +1,1078 @@
+* {
+    box-sizing: border-box;
+}
+
+.light-mode {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+		background-image: url('images/m3IwqzR.png'), url('https://i.imgur.com/ZKXUqTC.png'), url('https://i.imgur.com/chebDhH.png');
+		background-position: 0px 0px, 0px 1080px, 0px 2160px;
+		background-repeat: no-repeat, no-repeat, repeat-y;
+}
+
+.dark-mode {
+	margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+	background-image: url(''), url(''), url('');
+	background-position: 0px 0px, 0px 1080px, 0px 2160px;
+	background-repeat: no-repeat, no-repeat, repeat-y;
+}
+
+.dark-mode .post{
+	background-color: black;
+	color: white;
+	margin: 0 auto 2em auto;
+  padding: 35px 30px;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.3);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* 
+	WEBSITE NAVIGATON BAR LIGHT MODE
+*/
+
+.light-mode header {
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+		border-radius: 7px;
+		inline-size: 600px;
+		position: relative;
+		left: 650px;
+}
+
+.light-mode ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    z-index: 10;
+}
+
+.light-mode li {
+    color: #01066b;
+    display: inline-block;
+    margin: 0 0 0 40px;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: "Luckiest Guy", sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.light-mode li:hover, li.active {
+    color: #FFD600;
+    transform: scale(1.1);
+}
+
+.light-mode #magic-list {
+	text-align: left;
+}
+
+/* 
+	WEBSITE NAVIGATON BAR DARK MODE
+*/
+
+.dark-mode header {
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+		border-radius: 7px;
+		inline-size: 600px;
+		position: relative;
+		left: 650px;
+}
+
+.dark-mode ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    z-index: 10;
+}
+
+.dark-mode li {
+    color: #01066b;
+    display: inline-block;
+    margin: 0 0 0 40px;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: "Luckiest Guy", sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.dark-mode li:hover, li.active {
+    color: #FFD600;
+    transform: scale(1.1);
+}
+
+.dark-mode #magic-list {
+	text-align: left;
+}
+
+/* 
+	HOME PAGE LIGHT MODE
+*/
+
+.light-mode #page1 h1 {
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 2px 2px 5px;
+}
+
+.light-mode #desc-home-pg {
+	justify-content: center;
+}
+
+.light-mode .tenor-gif-embed {
+	margin: auto;
+	border: 5px solid;
+}
+
+.light-mode #home-page p {
+	font-size: 19px;
+}
+
+/* 
+	HOME PAGE DARK MODE
+*/
+
+.dark-mode #page1 h1 {
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 2px 2px 5px;
+}
+
+.dark-mode #desc-home-pg {
+	justify-content: center;
+}
+
+.dark-mode .tenor-gif-embed {
+	margin: auto;
+	border: 5px solid;
+}
+
+.dark-mode #home-page p {
+	font-size: 19px;
+}
+
+/* 
+		Tech Mods Page Light Mode
+*/
+
+.light-mode #page3 h2 {
+  text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px;
+}
+
+.light-mode #page3 h3 {
+    text-align: center;
+}
+
+.light-mode .tech-list {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	inline-size: 430px;
+}
+
+.light-mode .tech-list img {
+	width: 110px;
+}
+
+.light-mode .tech-list li {
+	text-align: center;
+	color: black;
+	font-size: 22px;
+	margin: 0px 0px 10px 0px;
+}
+
+/* 
+		Tech Mods Page Dark Mode
+*/
+
+.dark-mode #page3 h2 {
+  text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px;
+}
+
+.dark-mode #page3 h3 {
+    text-align: center;
+}
+
+.dark-mode .tech-list {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	inline-size: 430px;
+}
+
+.dark-mode .tech-list img {
+	width: 110px;
+}
+
+.dark-mode .tech-list li {
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	margin: 0px 0px 10px 0px;
+}
+
+/*
+		Mekanism Light Mode
+*/
+
+.light-mode #mekanism h1 {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 1px 2px 3px;
+}
+
+.light-mode #oreprocess-tier1 {
+	border: solid;
+	width: 600px;
+	margin: 0px 150px 0px 150px;
+}
+
+.light-mode #oreprocess-tier2 {
+	border: solid;
+	width: 600px;
+	margin: 0px 150px 0px 150px;
+}
+
+.light-mode #t3-ore-process {
+	margin: 15px 0px 0px 135px;
+	display: block;
+	border: solid;
+	width: 650px;
+}
+
+.light-mode #t4-meka-ore-process {
+	border: solid;
+	margin: 10px 0px 20px 105px;
+}
+
+.light-mode #meka-back-to-top {
+	text-decoration: none;
+  font-size: 16px;
+  display: block;
+	margin-top: 30px;
+	text-align: center;
+	color: #20938b;
+	text-transform: uppercase;
+}
+
+.light-mode .img-with-txt-box4 {
+	display: flex;
+	flex-direction: row;
+}
+
+.light-mode .img-with-txt-box4 img {
+	width: 95%;
+	height: 75%;
+	border: solid;
+}
+
+.light-mode .img-with-txt-box4 h3 {
+	text-align: center;
+}
+
+.light-mode .img-with-txt-box5 {
+	display: flex;
+	flex-direction: row;
+}
+
+.light-mode .img-with-txt-box5 img {
+	width: 95%;
+	height: 35%;
+	border: solid;
+}
+
+.light-mode .img-with-txt-box5 h3 {
+	text-align: center;
+}
+
+.light-mode #mekanism p {
+	font-size: 20px;
+}
+
+.light-mode #mekanism h4 {
+	font-size: 22px;
+}
+
+/*
+		Mekanism Dark Mode
+*/
+
+.dark-mode #mekanism h1 {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 1px 2px 3px;
+}
+
+.dark-mode #oreprocess-tier1 {
+	border: solid;
+	width: 600px;
+	margin: 0px 150px 0px 150px;
+}
+
+.dark-mode #oreprocess-tier2 {
+	border: solid;
+	width: 600px;
+	margin: 0px 150px 0px 150px;
+}
+
+.dark-mode #t3-ore-process {
+	margin: 15px 0px 0px 135px;
+	display: block;
+	border: solid;
+	width: 650px;
+}
+
+.dark-mode #t4-meka-ore-process {
+	border: solid;
+	margin: 10px 0px 20px 105px;
+}
+
+.dark-mode #meka-back-to-top {
+	text-decoration: none;
+  font-size: 16px;
+  display: block;
+	margin-top: 30px;
+	text-align: center;
+	color: #20938b;
+	text-transform: uppercase;
+}
+
+.dark-mode .img-with-txt-box4 {
+	display: flex;
+	flex-direction: row;
+}
+
+.dark-mode .img-with-txt-box4 img {
+	width: 95%;
+	height: 75%;
+	border: solid;
+}
+
+.dark-mode .img-with-txt-box4 h3 {
+	text-align: center;
+}
+
+.dark-mode .img-with-txt-box5 {
+	display: flex;
+	flex-direction: row;
+}
+
+.dark-mode .img-with-txt-box5 img {
+	width: 95%;
+	height: 35%;
+	border: solid;
+}
+
+.dark-mode .img-with-txt-box5 h3 {
+	text-align: center;
+}
+
+.dark-mode #mekanism p {
+	font-size: 20px;
+}
+
+.dark-mode #mekanism h4 {
+	font-size: 22px;
+}
+
+/*
+		Bigger Reactors Light Mode
+*/
+
+.light-mode #bigger-reactors h1 {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 1px 2px 3px;
+}
+
+.light-mode .passive-reactor-recipes img {
+	width: 250px;
+	height: 140px;
+	border: solid;
+}
+
+.light-mode #br-3x3x3-size {
+	width: 600px;
+	border: solid;
+}
+
+.light-mode #br-5x5x5-size {
+	width: 600px;
+	border: solid;
+}
+
+.light-mode .img-with-txt-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.light-mode .img-with-txt-box img {
+	width: 90%;
+	height: 37%;
+	border: solid;
+}
+
+.light-mode .img-with-txt-box h3 {
+	text-align: center;
+	font-size: 17px;
+}
+
+.light-mode .img-with-txt-box2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.light-mode .img-with-txt-box2 img {
+	width: 55%;
+	border: solid;
+}
+
+.light-mode .img-with-txt-box2 p {
+	inline-size: 420px;
+	margin: 0px 30px 0px 0px;
+}
+
+.light-mode .img-with-txt-box3 {
+	display: flex;
+	flex-direction: row;
+}
+
+.light-mode .img-with-txt-box3 img {
+	width: 55%;
+	border: solid;
+}
+
+.light-mode .img-with-txt-box3 p {
+	inline-size: 420px;
+	margin: 0px 0px 0px 30px;
+}
+
+.light-mode #br-active-cool-reac {
+	text-align: center;
+}
+
+.light-mode #br-passive-cool-reac {
+	text-align: center;
+}
+
+.light-mode #br-turbine-setup {
+	border: solid;
+}
+
+.light-mode #br-back-to-top {
+	text-decoration: none;
+  font-size: 16px;
+  display: block;
+	margin-top: 30px;
+	text-align: center;
+	color: #20938b;
+	text-transform: uppercase;
+}
+
+.light-mode .table-of-contents table, th {
+	border: 1px solid;
+	border-collapse: collapse;
+	font-size: 25px;
+}
+
+.light-mode .table-of-contents a:link, a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+.light-mode .table-of-contents td {
+	padding: 7px;
+	text-align: left;
+}
+
+.light-mode .table-of-contents tr {
+	border-bottom: 1px solid #000000;
+}
+
+.light-mode #bigger-reactors p {
+	font-size: 20px;
+}
+
+.light-mode #bigger-reactors h4 {
+	font-size: 22px;
+}
+
+/*
+		Bigger Reactors Dark Mode
+*/
+
+.dark-mode #bigger-reactors h1 {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 1px 2px 3px;
+}
+
+.dark-mode #br-3x3x3-size {
+	width: 600px;
+	border: solid;
+}
+
+.dark-mode #br-5x5x5-size {
+	width: 600px;
+	border: solid;
+}
+
+.dark-mode .img-with-txt-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.dark-mode .img-with-txt-box img {
+	width: 90%;
+	height: 37%;
+	border: solid;
+}
+
+.dark-mode .img-with-txt-box h3 {
+	text-align: center;
+	font-size: 17px;
+}
+
+.dark-mode .img-with-txt-box2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.dark-mode .img-with-txt-box2 img {
+	width: 55%;
+	border: solid;
+}
+
+.dark-mode .img-with-txt-box2 p {
+	inline-size: 420px;
+	margin: 0px 30px 0px 0px;
+}
+
+.dark-mode .img-with-txt-box3 {
+	display: flex;
+	flex-direction: row;
+}
+
+.dark-mode .img-with-txt-box3 img {
+	width: 55%;
+	border: solid;
+}
+
+.dark-mode .img-with-txt-box3 p {
+	inline-size: 420px;
+	margin: 0px 0px 0px 30px;
+}
+
+.dark-mode #br-active-cool-reac {
+	text-align: center;
+}
+
+.dark-mode #br-passive-cool-reac {
+	text-align: center;
+}
+
+.dark-mode #br-turbine-setup {
+	border: solid;
+}
+
+.dark-mode #br-back-to-top {
+	text-decoration: none;
+  font-size: 16px;
+  display: block;
+	margin-top: 30px;
+	text-align: center;
+	color: #20938b;
+	text-transform: uppercase;
+}
+
+.dark-mode .table-of-contents table, th {
+	border: 1px solid;
+	border-collapse: collapse;
+	font-size: 25px;
+}
+
+.dark-mode .table-of-contents a:link, a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+.dark-mode .table-of-contents td {
+	padding: 7px;
+	text-align: left;
+}
+
+.dark-mode .table-of-contents tr {
+	border-bottom: 1px solid #000000;
+}
+
+.dark-mode #bigger-reactors p {
+	font-size: 20px;
+}
+
+.dark-mode #bigger-reactors h4 {
+	font-size: 22px;
+}
+
+/* 
+		Magic Mods Page Light Mode
+*/
+
+.light-mode #page2 h2 {
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px;
+}
+
+.light-mode #nav-page5 {
+	color: black;
+	font-size: 20px;
+}
+
+.light-mode #nav-page6 {
+	color: black;
+	font-size: 20px;
+	margin: 0 0 0 42px;
+}
+
+.light-mode #botania-icon {
+	margin: 10px 0px 0px 25px;
+	width: 100px
+}
+
+.light-mode #projecte-icon {
+	margin: 10px 0px 0px 35px;
+	height: 100px
+}
+
+.light-mode .row {
+    margin-top: 30px;
+    display: flex;
+    text-align: left;
+}
+
+.light-mode .row img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+/* 
+		Magic Mods Page Dark Mode
+*/
+
+.dark-mode #page2 h2 {
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px;
+}
+
+.dark-mode #nav-page5 {
+	color: white;
+	font-size: 20px;
+}
+
+.dark-mode #nav-page6 {
+	color: white;
+	font-size: 20px;
+	margin: 0 0 0 42px;
+}
+
+.dark-mode #botania-icon {
+	margin: 10px 0px 0px 25px;
+	width: 100px
+}
+
+.dark-mode #projecte-icon {
+	margin: 10px 0px 0px 35px;
+	height: 100px
+}
+
+.dark-mode .row {
+    margin-top: 30px;
+    display: flex;
+    text-align: left;
+}
+
+.dark-mode .row img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+/*
+	Project E Page Light Mode
+*/
+
+.light-mode #projecte h1 {
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 2px 3px;
+}
+
+.light-mode #projecte h2 {
+	font-size: 32px;
+	text-align: center;
+}
+
+.light-mode #projecte h3{
+	font-size: 27px;
+}
+
+.light-mode #phil-stone-craft {
+	float: right;
+	width: 275px;
+	border: solid;
+}
+
+.light-mode #fuel-crafting {
+	float: right;
+	border: solid;
+}
+
+.light-mode #transmutation-table-craft {
+	border: solid;
+	float: right;
+}
+
+.light-mode #projecte p {
+	font-size: 19px;
+}
+
+.light-mode .image-stack {
+	display: flex;
+	flex-direction: column;
+	width: 37%;
+	margin: auto;
+}
+
+.light-mode .img-with-txt-box5 p {
+	inline-size: 430px;
+}
+
+.light-mode .img-with-txt-box6 p {
+	inline-size: 440px;
+	margin: 30px 60px 0px 30px;
+}
+
+.light-mode .img-with-txt-box6 {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.light-mode .img-with-txt-box6 img {
+	width: 35%;
+	margin: 30px 0px 0px 0px;
+	border: solid;
+}
+
+.light-mode .img-with-txt-box7 {
+	display: flex;
+	flex-direction: row;
+}
+
+.light-mode .img-with-txt-box7 img {
+	width: 85%;
+	height: 37%;
+	border: solid;
+}
+
+.light-mode .img-with-txt-box7 h6 {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 25px 10px 0px;
+}
+
+.light-mode .img-with-txt-box8 {
+	display: flex;
+	flex-direction: row;
+}
+
+.light-mode .img-with-txt-box8 img {
+	width: 85%;
+	height: 75%;
+	border: solid;
+}
+
+.light-mode .img-with-txt-box8 h6 {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 25px 10px 0px;
+}
+
+.light-mode #simple-emc-flower {
+	width: 600px;
+	border: solid;
+	margin: 0px 0px 0px 155px;
+}
+
+.light-mode #proje-basic-pf-vid {
+	border: solid;
+	margin: 0px 0px 0px 150px;
+}
+
+/*
+	Project E Page Dark Mode
+*/
+
+.dark-mode #projecte h1 {
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 2px 3px;
+}
+
+.dark-mode #projecte h2 {
+	font-size: 32px;
+	text-align: center;
+}
+
+.dark-mode #projecte h3{
+	font-size: 27px;
+}
+
+.dark-mode #phil-stone-craft {
+	float: right;
+	width: 275px;
+	border: solid;
+}
+
+.dark-mode #fuel-crafting {
+	float: right;
+	border: solid;
+}
+
+.dark-mode #transmutation-table-craft {
+	border: solid;
+	float: right;
+}
+
+.dark-mode #projecte p {
+	font-size: 19px;
+}
+
+.dark-mode .image-stack {
+	display: flex;
+	flex-direction: column;
+	width: 37%;
+	margin: auto;
+}
+
+.dark-mode .img-with-txt-box5 p {
+	inline-size: 430px;
+}
+
+.dark-mode .img-with-txt-box6 p {
+	inline-size: 440px;
+	margin: 30px 60px 0px 30px;
+}
+
+.dark-mode .img-with-txt-box6 {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.dark-mode .img-with-txt-box6 img {
+	width: 35%;
+	margin: 30px 0px 0px 0px;
+	border: solid;
+}
+
+.dark-mode .img-with-txt-box7 {
+	display: flex;
+	flex-direction: row;
+}
+
+.dark-mode .img-with-txt-box7 img {
+	width: 85%;
+	height: 37%;
+	border: solid;
+}
+
+.dark-mode .img-with-txt-box7 h6 {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 25px 10px 0px;
+}
+
+.dark-mode .img-with-txt-box8 {
+	display: flex;
+	flex-direction: row;
+}
+
+.dark-mode .img-with-txt-box8 img {
+	width: 85%;
+	height: 75%;
+	border: solid;
+}
+
+.dark-mode .img-with-txt-box8 h6 {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 25px 10px 0px;
+}
+
+.dark-mode #simple-emc-flower {
+	width: 600px;
+	border: solid;
+	margin: 0px 0px 0px 155px;
+}
+
+.dark-mode #proje-basic-pf-vid {
+	border: solid;
+	margin: 0px 0px 0px 150px;
+}
+
+/* 
+	FOOTER
+*/
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+  padding: 100px 0 50px;
+}
+
+main > div {
+  padding: 20px 20px;
+	display: none;
+}
+
+
+
+/* For mobile view - do NOT edit the CSS below! */
+@media screen and (max-width: 540px) {
+
+    .row,
+    .inner-row {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #page1 img {
+        width: 200px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .row img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    header {
+        height: 12vh;
+        min-height: 100px;
+    }
+
+    ul {
+        position: relative;
+    }
+
+    ul li {
+        font-size: 18px;
+    }
+  	
+}
+
+div.container {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div.column {
+	display: flex;
+	flex-direction: row;
+	float: left;
+  margin: 1% 0 1% 1.6%;
+  width: 100%;
+}
+
+.light-mode .column:first-child {
+    margin-left: 0;
+}
+
+.dark-mode .column:first-child {
+    margin-left: 0;
+}
+
+.light-mode .post {
+    background-color: white;
+    margin: 0 auto 2em auto;
+    padding: 35px 30px;
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.3);
+}
+
+/*
+	Contact Page
+*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#contact-form {
+	max-width: 1020px;
+	margin: 0 auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
